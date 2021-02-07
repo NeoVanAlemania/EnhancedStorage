@@ -1,17 +1,20 @@
 [
-{
-  "op": "replace",
-  "path": "/slotCount",
-  "value": 40
-},
-{
-  "op": "add",
-  "path": "/scripts",
-  "value": [ "/scripts/enhancedstorage.lua" ]
-},
-{
-  "op": "add",
-  "path": "/smashOnBreak",
-  "value": true
-}
+  [{"op": "test","path": "/slotCount"},{"op": "replace","path": "/slotCount","value": 64}],
+
+  [{"op": "test","path": "/slotCount"},{"op": "test","path": "/objectType"},{"op": "replace","path": "/objectType","value": "container"}],
+  [{"op": "test","path": "/slotCount"},{"op": "test","path": "/objectType","inverse":true},{"op": "add","path": "/objectType","value": "container"}],
+
+  [{"op": "test","path": "/slotCount"},{"op": "test","path": "/category"},{"op": "replace","path": "/category","value": "storage"}],
+  [{"op": "test","path": "/slotCount"},{"op": "test","path": "/category","inverse":true},{"op": "add","path": "/category","value": "storage"}],
+
+  [{"op": "test","path": "/slotCount"},{"op": "test","path": "/tooltipKind"},{"op": "replace","path": "/tooltipKind","value": "container"}],
+  [{"op": "test","path": "/slotCount"},{"op": "test","path": "/tooltipKind","inverse":true},{"op": "add","path": "/tooltipKind","value": "container"}],
+
+  [{"op": "test","path": "/slotCount"},{"op": "test","path": "/uiConfig"},{"op": "replace","path": "/uiConfig","value": "/interface/chests/chest<slots>.config"}],
+  [{"op": "test","path": "/slotCount"},{"op": "test","path": "/uiConfig","inverse":true},{"op": "add","path": "/uiConfig","value": "/interface/chests/chest<slots>.config"}],
+
+  [{"op": "test","path": "/slotCount"},{"op": "test","path": "/scripts", "inverse":true},{"op": "add","path": "/scripts","value": []}],
+  [{"op": "test","path": "/slotCount"},{"op": "add","path": "/scripts/-","value": "/scripts/enhancedstorage.lua"}],
+
+  [{"op": "test","path": "/slotCount"},{"op": "add","path": "/smashOnBreak","value": true}]
 ]
