@@ -1,0 +1,45 @@
+{
+  "objectName" : "capturepodchest",
+  "colonyTags" : [],
+  "rarity" : "Uncommon",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "storage",
+  "price" : 160,
+  "description" : "This cupboard can be used for storing Capture Pods. Shows the Pet images for each slot!",
+  "shortdescription" : "Capture Pod Cupboard",
+  "race" : "apex",
+  "health" : 1.5,
+  "smashOnBreak" : true,
+
+  "apexDescription" : "I bet there are a few Capture Pods inside.",
+  "avianDescription" : "Is there anything inside? Maybe Capture Pods?",
+  "floranDescription" : "Ssstorage for Capture Podsss.",
+  "glitchDescription" : "Curious. Could contain Capture Pods.",
+  "humanDescription" : "A sleek-looking cupboard for Capture Pods.",
+  "hylotlDescription" : "I should check this cupboard for Capture Pods.",
+  "novakidDescription" : "Let's take a look inside this cupboard for Capture Pods.",
+
+  "inventoryIcon" : "capturepodchesticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "capturepodchest.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/locker_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/locker_close.ogg" ],
+  "slotCount" : 60,
+  "uiConfig" : "/interface/chests/capturepodchest<slots>.config",
+  "scripts" : [ "/scripts/capturepodchest.lua" ],
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

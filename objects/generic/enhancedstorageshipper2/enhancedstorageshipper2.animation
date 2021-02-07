@@ -1,0 +1,162 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "shipper" : {
+        "default" : "ready",
+        "states" : {
+          "error" : {
+            "frames" : 2,
+            "cycle" : 0.2,
+            "mode" : "loop"
+          },
+          "ready" : {
+            "frames" : 2,
+            "cycle" : 0.2,
+            "mode" : "loop"
+          },
+          "ship" : {
+            "frames" : 23,
+            "cycle" : 2.0,
+            "mode" : "transition",
+            "transition" : "closed",
+            "properties" : {
+              "immediateSoundRangeMultiplier" : 0.5
+            },
+            "frameProperties" : {
+              "immediateSound" : [ "", "/sfx/cinematics/teleporting_start.ogg", "", "", "", "", "/sfx/tools/teleport_up.ogg", "", "", "", "", "", "", "", "", "", "", "", "", "", "/sfx/objects/cropshipper_door_close.ogg", "", "" ]
+            }
+          },
+          "closed" : {
+            "frames" : 2,
+            "cycle" : 0.2,
+            "mode" : "loop"
+          },
+          "open" : {
+            "frames" : 4,
+            "cycle" : 0.4,
+            "mode" : "transition",
+            "transition" : "ready",
+            "properties" : {
+              "immediateSoundRangeMultiplier" : 0.5
+            },
+            "frameProperties" : {
+              "immediateSound" : [ "/sfx/objects/cropshipper_door_open.ogg", "", "", "" ]
+            }
+          },
+          "toready" : {
+            "frames" : 3,
+            "cycle" : 0.3,
+            "mode" : "transition",
+            "transition" : "ready"
+          },
+          "toerror" : {
+            "frames" : 3,
+            "cycle" : 0.3,
+            "mode" : "transition",
+            "transition" : "error"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "shipper" : {
+        "properties" : {
+          "centered" : false
+        },
+
+        "partStates" : {
+          "shipper" : {
+            "error" : {
+              "properties" : {
+                "image" : "enhancedstorageshipper2.png:error.<frame>"
+              }
+            },
+            "ready" : {
+              "properties" : {
+                "image" : "enhancedstorageshipper2.png:ready.<frame>"
+              }
+            },
+            "ship" : {
+              "properties" : {
+                "image" : "enhancedstorageshipper2.png:ship.<frame>"
+              }
+            },
+            "closed" : {
+              "properties" : {
+                "image" : "enhancedstorageshipper2.png:closed.<frame>"
+              }
+            },
+            "open" : {
+              "properties" : {
+                "image" : "enhancedstorageshipper2.png:open.<frame>"
+              }
+            },
+            "toready" : {
+              "properties" : {
+                "image" : "enhancedstorageshipper2.png:toready.<frame>"
+              }
+            },
+            "toerror" : {
+              "properties" : {
+                "image" : "enhancedstorageshipper2.png:toerror.<frame>"
+              }
+            }
+          }
+        }
+      },
+      "shipperfullbright" : {
+        "properties" : {
+          "centered" : false,
+          "zLevel" : 1,
+          "fullbright" : true
+        },
+
+        "partStates" : {
+          "shipper" : {
+            "error" : {
+              "properties" : {
+                "image" : "enhancedstorageshipper2fullbright.png:error.<frame>"
+              }
+            },
+            "ready" : {
+              "properties" : {
+                "image" : "enhancedstorageshipper2fullbright.png:ready.<frame>"
+              }
+            },
+            "ship" : {
+              "properties" : {
+                "image" : "enhancedstorageshipper2fullbright.png:ship.<frame>"
+              }
+            },
+            "closed" : {
+              "properties" : {
+                "image" : "enhancedstorageshipper2fullbright.png:closed.<frame>"
+              }
+            },
+            "open" : {
+              "properties" : {
+                "image" : "enhancedstorageshipper2fullbright.png:open.<frame>"
+              }
+            },
+            "toready" : {
+              "properties" : {
+                "image" : "enhancedstorageshipper2fullbright.png:toready.<frame>"
+              }
+            },
+            "toerror" : {
+              "properties" : {
+                "image" : "enhancedstorageshipper2fullbright.png:toerror.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "sounds" : {
+    "ship" : [],
+    "ready" : []
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "itemName" : "blueprintbox",
+  "price" : 200,
+  "level" : 1,
+  "maxStack" : 100,
+  "rarity" : "rare",
+  "category" : "mysteriousReward",
+  "description" : "Use this to open it and reveal its contents. How exciting!",
+  "shortdescription" : "Blueprint Box",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "blueprintboxicon.png",
+  "animation" : "blueprintbox.animation",
+  "animationCustom" : {},
+  "scripts" : ["blueprintbox.lua"],
+
+  "fireTime" : 0.5,
+  "fireOffset" : [0.0, 0.0],
+  "radioMessagesOnPickup" : [ "pickupblueprintbox" ],
+
+  "treasure" : {
+    "pool" : "storagecontainerblueprints",
+    "level" : 1
+  }
+}

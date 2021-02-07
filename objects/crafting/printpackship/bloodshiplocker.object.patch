@@ -1,0 +1,22 @@
+[
+{
+  "op": "add",
+  "path": "/tooltipKind",
+  "value": "container"
+},
+{
+  "op": "replace",
+  "path": "/slotCount",
+  "value": 100
+},
+{
+  "op": "add",
+  "path": "/scripts",
+  "value": [ "/scripts/enhancedstorage.lua" ]
+},
+{
+  "op": "add",
+  "path": "/smashOnBreak",
+  "value": true
+}
+]

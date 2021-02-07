@@ -1,0 +1,22 @@
+{
+
+  "frameGrid" : {
+    "size" : [24, 8],
+    "dimensions" : [22, 9],
+    "names" : [
+      [ "metal_off", "metal_0", "metal_1", "metal_2", "metal_3", "metal_4", "metal_5", "metal_6", "metal_7", "metal_8", "metal_9", "metal_10", "metal_11", "metal_12", "metal_13", "metal_14", "metal_15", "metal_16", "metal_17", "metal_18", "metal_19", "metal_20" ],
+      [ "wood_off", "wood_0", "wood_1", "wood_2", "wood_3", "wood_4", "wood_5", "wood_6", "wood_7", "wood_8", "wood_9", "wood_10", "wood_11", "wood_12", "wood_13", "wood_14", "wood_15", "wood_16", "wood_17", "wood_18", "wood_19", "wood_20" ],
+      [ "apex_off", "apex_0", "apex_1", "apex_2", "apex_3", "apex_4", "apex_5", "apex_6", "apex_7", "apex_8", "apex_9", "apex_10", "apex_11", "apex_12", "apex_13", "apex_14", "apex_15", "apex_16", "apex_17", "apex_18", "apex_19", "apex_20" ],
+      [ "avian_off", "avian_0", "avian_1", "avian_2", "avian_3", "avian_4", "avian_5", "avian_6", "avian_7", "avian_8", "avian_9", "avian_10", "avian_11", "avian_12", "avian_13", "avian_14", "avian_15", "avian_16", "avian_17", "avian_18", "avian_19", "avian_20" ],
+      [ "floran_off", "floran_0", "floran_1", "floran_2", "floran_3", "floran_4", "floran_5", "floran_6", "floran_7", "floran_8", "floran_9", "floran_10", "floran_11", "floran_12", "floran_13", "floran_14", "floran_15", "floran_16", "floran_17", "floran_18", "floran_19", "floran_20" ],
+      [ "glitch_off", "glitch_0", "glitch_1", "glitch_2", "glitch_3", "glitch_4", "glitch_5", "glitch_6", "glitch_7", "glitch_8", "glitch_9", "glitch_10", "glitch_11", "glitch_12", "glitch_13", "glitch_14", "glitch_15", "glitch_16", "glitch_17", "glitch_18", "glitch_19", "glitch_20" ],
+      [ "human_off", "human_0", "human_1", "human_2", "human_3", "human_4", "human_5", "human_6", "human_7", "human_8", "human_9", "human_10", "human_11", "human_12", "human_13", "human_14", "human_15", "human_16", "human_17", "human_18", "human_19", "human_20" ],
+      [ "hylotl_off", "hylotl_0", "hylotl_1", "hylotl_2", "hylotl_3", "hylotl_4", "hylotl_5", "hylotl_6", "hylotl_7", "hylotl_8", "hylotl_9", "hylotl_10", "hylotl_11", "hylotl_12", "hylotl_13", "hylotl_14", "hylotl_15", "hylotl_16", "hylotl_17", "hylotl_18", "hylotl_19", "hylotl_20" ],
+      [ "novakid_off", "novakid_0", "novakid_1", "novakid_2", "novakid_3", "novakid_4", "novakid_5", "novakid_6", "novakid_7", "novakid_8", "novakid_9", "novakid_10", "novakid_11", "novakid_12", "novakid_13", "novakid_14", "novakid_15", "novakid_16", "novakid_17", "novakid_18", "novakid_19", "novakid_20" ]
+    ]
+  },
+
+  "aliases" : {
+    "default" : "metal_off"
+  }
+}

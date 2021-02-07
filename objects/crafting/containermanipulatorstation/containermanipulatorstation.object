@@ -1,0 +1,52 @@
+{
+  "objectName" : "containermanipulatorstation",
+  "colonyTags" : ["crafting"],
+  "rarity" : "Legendary",
+  "printable" : false,
+  "description" : "Manipulates the Storage Matter within a container.",
+  "shortdescription" : "^orange;Storage Manipulator^white;",
+  "race" : "generic",
+  "category" : "Modifies Storage Matter",
+  "price" : 5000,
+  "health" : 10,
+
+  "objectType" : "container",
+  "slotCount" : 2,
+  "uiConfig" : "/interface/scripted/containermanipulatorstation/containermanipulatorstation.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+  "craftTime" : 3,
+
+  "apexDescription" : "A machine like this is used to modify the container space.",
+  "avianDescription" : "How useful, I can modify the container space with this.",
+  "floranDescription" : "Floran can modify containersss with thisss.",
+  "glitchDescription" : "Impressed. This device can modify containers.",
+  "humanDescription" : "I can use this to modify the capacity of my containers.",
+  "hylotlDescription" : "This machine is useful for modify container space.",
+  "novakidDescription" : "I can use this thing for modifying my container's capacity.",
+  
+  "lightColor" : [38, 114, 128],
+  "lightPosition" : [0, 1],
+
+  "flickerPeriod" : 1.2,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1.00,
+  "flickerPeriodVariance" : 0.0,
+  "flickerIntensityVariance" : 0.0,
+
+  "inventoryIcon" : "containermanipulatorstationicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "containermanipulatorstation.png:<color>.<frame>" }, { "image" : "containermanipulatorstationlit.png:<color>.<frame>", "fullbright" : true } ],
+      "flipImages" : false,
+      "direction" : "right",
+
+      "imagePosition" : [-52, 0],
+      "frames" : 4,
+      "animationCycle" : 0.7,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

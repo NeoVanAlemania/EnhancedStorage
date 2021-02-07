@@ -1,0 +1,39 @@
+{
+  "objectName" : "enhancedstoragesign",
+  "colonyTags" : ["crafting"],
+  "rarity" : "Rare",
+  "printable" : false,
+  "description" : "The sign from Enhanced Storage.",
+  "shortdescription" : "Enhanced Storage Sign",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 250,
+  "health" : 5,
+
+  "apexDescription" : "Enhanced Storage Sign.",
+  "avianDescription" : "Enhanced Storage Sign.",
+  "floranDescription" : "Enhanced Storage Sign.",
+  "glitchDescription" : "Enhanced Storage Sign.",
+  "humanDescription" : "Enhanced Storage Sign.",
+  "hylotlDescription" : "Enhanced Storage Sign.",
+  "novakidDescription" : "Enhanced Storage Sign.",
+
+  "lightColor" : [117, 209, 225],
+  "lightPosition" : [0, 2],
+
+  "inventoryIcon" : "enhancedstoragesignicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "enhancedstoragesign.png" }, { "image" : "enhancedstoragesignlit.png", "fullbright" : true } ],
+      "flipImages" : false,
+      "direction" : "right",
+
+      "imagePosition" : [-40, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

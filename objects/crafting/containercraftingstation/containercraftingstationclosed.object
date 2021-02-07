@@ -1,0 +1,36 @@
+{
+  "objectName" : "containercraftingstationclosed",
+  "colonyTags" : ["outpost","pretty"],
+  "rarity" : "Common",
+  "category" : "other",
+  "printable" : false,
+
+  "description" : "This would be a neat venue for a shop.",
+  "shortdescription" : "^orange;Closed Container Crafting Station^white;",
+
+  "apexDescription" : "A strange machine - from humans.",
+  "avianDescription" : "This machine looks futuristic!",
+  "floranDescription" : "Floran likesss machinesss.",
+  "glitchDescription" : "Beep. This machine looks like a complex machine.",
+  "humanDescription" : "It looks like a strange machine.",
+  "hylotlDescription" : "This machine is definitely made from a human.",
+  "novakidDescription" : "For what this machine could be?",
+
+  "inventoryIcon" : "containercraftingstationicon.png",
+  "orientations" : [
+    {
+      "image" : "containercraftingstationclosed.png:<color>",
+      "imagePosition" : [-40, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "flipImages" : false,
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

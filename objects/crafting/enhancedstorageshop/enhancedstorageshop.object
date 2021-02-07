@@ -1,0 +1,74 @@
+{
+  "objectName" : "enhancedstorageshop",
+  "colonyTags" : ["outpost"],
+  "rarity" : "Common",
+  "category" : "other",
+  "description" : "Sells Enhanced Storage goods.",
+  "shortdescription" : "Enhanced Storage Shop",
+  "race" : "generic",
+
+  "scannable" : false,
+  "printable" : false,
+
+  "inventoryIcon" : "enhancedstorageshopicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "enhancedstorageshop.png:<color>.<frame>", "fullbright" : true }, { "image" : "enhancedstorageshoplit.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "frames" : 90,
+      "animationCycle" : 9.0,
+
+      "spaces" : [ [0, 0], [0, 1], [0, 2], [0, 3] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "enhancedstorageshop.png:<color>.<frame>", "fullbright" : true }, { "image" : "enhancedstorageshoplit.png:<color>.<frame>" } ],
+      "imagePosition" : [-4, 0],
+
+      "direction" : "right",
+
+      "frames" : 90,
+      "animationCycle" : 9.0,
+
+      "spaces" : [ [0, 0] ],
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "offeredQuests" : [ "EnhancedStorage", "EnhancedStorage2" ],
+  "turnInQuests" : [ "EnhancedStorage", "EnhancedStorage2" ],
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/merchant.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Neo's Supplies",
+        "subtitle" : "^#b9b5b2;Sells Enhanced Storage goods."
+      }
+    },
+    "buyFactor" : 1.0,
+    "sellFactor" : 0.2,
+    "items" : [
+      { "item" : { "name": "containercraftingstation" } },
+      { "item" : { "name": "containermanipulatorstation" } },
+      { "item" : { "name": "containerrecycler" } },
+      { "item" : { "name": "enhancedstorageshipper" } },
+      { "item" : { "name": "enhancedstorageshipper2" } },
+      { "item" : { "name": "enhancedstoragesign" } },
+      { "item" : { "name": "liquidtank5" } },
+      { "item" : { "name": "liquidtank4" } },
+      { "item" : { "name": "liquidtank1" } },
+      { "item" : { "name": "liquidtank2" } },
+      { "item" : { "name": "liquidtank3" } },
+      { "item" : { "name": "capturepodchest" } },
+      { "item" : { "name": "capacitylevelindicator1" } },
+      { "item" : { "name": "capacitylevelindicator2" } },
+      { "item" : { "name": "capacitylevelindicator3" } }
+    ]
+  }
+}

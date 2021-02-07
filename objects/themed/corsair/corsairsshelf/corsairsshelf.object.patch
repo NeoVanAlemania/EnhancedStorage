@@ -1,0 +1,24 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/objectType",
+      "value" : "container"
+    },
+    {
+      "op": "replace",
+      "path": "/slotCount",
+      "value": 56
+    },
+    {
+      "op": "add",
+      "path": "/scripts",
+      "value": [ "/scripts/enhancedstorage.lua" ]
+    },
+    {
+      "op": "add",
+      "path": "/smashOnBreak",
+      "value": true
+    }
+  ]
+]

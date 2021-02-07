@@ -1,0 +1,43 @@
+[
+  {
+    "op": "replace",
+    "path": "/scriptDelta",
+    "value": 20
+  },
+  {
+    "op": "replace",
+    "path": "/gui/background/fileHeader",
+    "value": "/interface/scripted/cropshipper/cropshipperheader.png"
+  },
+  {
+    "op": "replace",
+    "path": "/gui/background/fileBody",
+    "value": "/interface/scripted/cropshipper/cropshipperbody.png"
+  },
+  {
+    "op": "replace",
+    "path": "/gui/background/fileFooter",
+    "value": "/interface/scripted/cropshipper/cropshipperfooter.png"
+  },
+  {
+    "op": "replace",
+    "path": "/gui/overlay/file",
+    "value": "/interface/scripted/cropshipper/cropshippershine.png"
+  },
+  {
+    "op": "replace",
+    "path": "/gui/overlay/position/1",
+    "value": 0
+  },
+  {
+    "op": "add",
+    "path": "/acceptCategories",
+    "value": [
+      "food",
+      "preparedFood",
+      "drink",
+      "seed",
+      "cookingIngredient"
+    ]
+  }
+]

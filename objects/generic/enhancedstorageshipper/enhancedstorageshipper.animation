@@ -1,0 +1,162 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "shipper" : {
+        "default" : "ready",
+        "states" : {
+          "error" : {
+            "frames" : 2,
+            "cycle" : 0.2,
+            "mode" : "loop"
+          },
+          "ready" : {
+            "frames" : 2,
+            "cycle" : 0.2,
+            "mode" : "loop"
+          },
+          "ship" : {
+            "frames" : 23,
+            "cycle" : 2.0,
+            "mode" : "transition",
+            "transition" : "closed",
+            "properties" : {
+              "immediateSoundRangeMultiplier" : 0.5
+            },
+            "frameProperties" : {
+              "immediateSound" : [ "/sfx/objects/cropshipper_arm_up.ogg", "", "", "", "", "", "", "/sfx/objects/cropshipper_box_lock2.ogg", "", "", "", "", "", "", "/sfx/objects/cropshipper_arm_down.ogg", "", "", "", "", "", "/sfx/objects/cropshipper_door_close.ogg", "", "" ]
+            }
+          },
+          "closed" : {
+            "frames" : 2,
+            "cycle" : 0.2,
+            "mode" : "loop"
+          },
+          "open" : {
+            "frames" : 4,
+            "cycle" : 0.4,
+            "mode" : "transition",
+            "transition" : "ready",
+            "properties" : {
+              "immediateSoundRangeMultiplier" : 0.5
+            },
+            "frameProperties" : {
+              "immediateSound" : [ "/sfx/objects/cropshipper_door_open.ogg", "", "", "" ]
+            }
+          },
+          "toready" : {
+            "frames" : 3,
+            "cycle" : 0.3,
+            "mode" : "transition",
+            "transition" : "ready"
+          },
+          "toerror" : {
+            "frames" : 3,
+            "cycle" : 0.3,
+            "mode" : "transition",
+            "transition" : "error"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "shipper" : {
+        "properties" : {
+          "centered" : false
+        },
+
+        "partStates" : {
+          "shipper" : {
+            "error" : {
+              "properties" : {
+                "image" : "enhancedstorageshipper.png:error.<frame>"
+              }
+            },
+            "ready" : {
+              "properties" : {
+                "image" : "enhancedstorageshipper.png:ready.<frame>"
+              }
+            },
+            "ship" : {
+              "properties" : {
+                "image" : "enhancedstorageshipper.png:ship.<frame>"
+              }
+            },
+            "closed" : {
+              "properties" : {
+                "image" : "enhancedstorageshipper.png:closed.<frame>"
+              }
+            },
+            "open" : {
+              "properties" : {
+                "image" : "enhancedstorageshipper.png:open.<frame>"
+              }
+            },
+            "toready" : {
+              "properties" : {
+                "image" : "enhancedstorageshipper.png:toready.<frame>"
+              }
+            },
+            "toerror" : {
+              "properties" : {
+                "image" : "enhancedstorageshipper.png:toerror.<frame>"
+              }
+            }
+          }
+        }
+      },
+      "shipperfullbright" : {
+        "properties" : {
+          "centered" : false,
+          "zLevel" : 1,
+          "fullbright" : true
+        },
+
+        "partStates" : {
+          "shipper" : {
+            "error" : {
+              "properties" : {
+                "image" : "enhancedstorageshipperfullbright.png:error.<frame>"
+              }
+            },
+            "ready" : {
+              "properties" : {
+                "image" : "enhancedstorageshipperfullbright.png:ready.<frame>"
+              }
+            },
+            "ship" : {
+              "properties" : {
+                "image" : "enhancedstorageshipperfullbright.png:ship.<frame>"
+              }
+            },
+            "closed" : {
+              "properties" : {
+                "image" : "enhancedstorageshipperfullbright.png:closed.<frame>"
+              }
+            },
+            "open" : {
+              "properties" : {
+                "image" : "enhancedstorageshipperfullbright.png:open.<frame>"
+              }
+            },
+            "toready" : {
+              "properties" : {
+                "image" : "enhancedstorageshipperfullbright.png:toready.<frame>"
+              }
+            },
+            "toerror" : {
+              "properties" : {
+                "image" : "enhancedstorageshipperfullbright.png:toerror.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "sounds" : {
+    "ship" : [],
+    "ready" : []
+  }
+}

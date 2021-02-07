@@ -1,0 +1,71 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "recyclerState" : {
+        "default" : "idle",
+        "states" : {
+          "idle" : {
+            "frames" : 1,
+            "properties" : {"immediateSoundRangeMultiplier" : 0.5},
+            "frameProperties" : {
+              "immediateSound" : [ "/sfx/blocks/footstep_metallic.ogg" ]
+            }
+          },
+					"active" : {
+            "frames" : 12,
+            "cycle" : 1.2,
+            "mode" : "loop",
+            "properties" : {"immediateSoundRangeMultiplier" : 0.5},
+            "frameProperties" : {
+              "immediateSound" : [ "/sfx/blocks/footstep_metallic.ogg", "", "", "", "", "", "", "", "", "", "", "" ]
+            }
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "containerrecycler" : {
+        "properties" : {
+          "centered" : false
+        },
+        "partStates" : {
+          "recyclerState" : {
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:off"
+              }
+            },
+            "active" : {
+              "properties" : {
+                "image" : "<partImage>:on.<frame>"
+              }
+            }
+          }
+        }
+      },
+
+      "containerrecyclerlit" : {
+        "properties" : {
+          "centered" : false,
+          "zLevel" : 1,
+          "fullbright" : true
+        },
+        "partStates" : {
+          "recyclerState" : {
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:off"
+              }
+            },
+            "active" : {
+              "properties" : {
+                "image" : "<partImage>:on.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

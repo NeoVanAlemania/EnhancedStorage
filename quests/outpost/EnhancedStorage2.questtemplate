@@ -1,0 +1,40 @@
+{
+  "id" : "EnhancedStorage2",
+  "prerequisites" : [ "EnhancedStorage" ],
+  "title" : "^green;Container Manipulator",
+  "text" : "Now that you've learned how to make new containers, I want to show you the capabilities of the ^green;Storage Manipulator^white; to my left. With this station you can modify the number of slots of existing containers. Please change the slot count of the previously created ^orange;Filing Cabinet^white; to ^orange;64^white; and bring it to me.",
+  "completionText" : "Well done. Feel free to use both stations when needed but keep an eye on your materials! Also, please take a look at the goods I'm selling if you have time.",
+  "moneyRange" : [50, 50],
+  "rewards" : [
+    [ [ "manipulatormodule", 1 ], [ "enhancedstoragematerial", 20 ] ]
+  ],
+  "canBeAbandoned" : false,
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/enhancedstoragequests.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : {
+        "portrait" : [ {"image" : "/objects/crafting/enhancedstorageshop/enhancedstorageshopportrait.png"} ],
+        "title" : "Neo"
+      },
+      "questComplete" : {
+        "portrait" : [ {"image" : "/objects/crafting/enhancedstorageshop/enhancedstorageshopportrait.png"} ],
+        "title" : "Neo"
+      }
+    },
+    "requireTurnIn" : true,
+    "turnInDescription" : "Deliver ^orange;Filing Cabinet^reset; with ^orange;64 slots^reset; to ^orange;Neo^reset; at the ^orange;outpost^reset;.",
+    "conditions" : [
+      {
+        "type" : "gatherItemWithParameters",
+        "itemName" : "filingcabinet",
+        "count" : 1,
+        "slotCount" : 64,
+        "modified" : true,
+        "consume" : false,
+        "description" : "Acquire ^orange;<itemName> ^yellow;^reset;\nwith ^orange;64 slots^reset;: ^green;<current> / <required>^reset;"
+      }
+    ]
+  }
+}

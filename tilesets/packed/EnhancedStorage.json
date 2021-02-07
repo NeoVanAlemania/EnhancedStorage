@@ -1,0 +1,62 @@
+{
+  "margin" : 0,
+  "name" : "EnhancedStorage",
+  "properties" : {
+  },
+  "spacing" : 0,
+  "tilecount" : 4,
+  "tileheight" : 64,
+  "tileproperties" : {
+      "0" : {
+          "//description" : "With this station I can craft storage containers.",
+          "//name" : "containercraftingstation",
+          "//shortdescription" : "Container Crafting Station",
+          "imagePositionX" : "-40",
+          "imagePositionY" : "0",
+          "object" : "containercraftingstation",
+          "tilesetDirection" : "right"
+      },
+      "1" : {
+          "//description" : "Can be used to change the capacity of containers.",
+          "//name" : "containermanipulatorstation",
+          "//shortdescription" : "Container Manipulator Station",
+          "imagePositionX" : "-52",
+          "imagePositionY" : "0",
+          "object" : "containermanipulatorstation",
+          "tilesetDirection" : "right"
+      },
+      "2" : {
+          "//description" : "The sign from Enhanced Storage.",
+          "//name" : "enhancedstoragesign",
+          "//shortdescription" : "Enhanced Storage Sign",
+          "imagePositionX" : "-40",
+          "imagePositionY" : "0",
+          "object" : "enhancedstoragesign",
+          "tilesetDirection" : "right"
+      },
+      "3" : {
+          "//description" : "Sells Enhanced Storage goods.",
+          "//name" : "enhancedstorageshop",
+          "//shortdescription" : "Enhanced Storage Shop",
+          "imagePositionX" : "-12",
+          "imagePositionY" : "0",
+          "object" : "enhancedstorageshop",
+          "tilesetDirection" : "left"
+      }
+  },
+  "tiles" : {
+      "0" : {
+          "image" : "../../../../tiled/packed/objects/containercraftingstation.png"
+      },
+      "1" : {
+          "image" : "../../../../tiled/packed/objects/containermanipulatorstation.png"
+      },
+      "2" : {
+          "image" : "../../../../tiled/packed/objects/enhancedstoragesign.png"
+      },
+      "3" : {
+          "image" : "../../../../tiled/packed/objects/enhancedstorageshop.png"
+      }
+  },
+  "tilewidth" : 120
+}

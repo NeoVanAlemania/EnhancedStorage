@@ -1,0 +1,22 @@
+[
+{
+  "op": "add",
+  "path": "/tooltipKind",
+  "value": "container"
+},
+{
+  "op": "replace",
+  "path": "/uiConfig",
+  "value": "/interface/chests/chest<slots>.config"
+},
+{
+  "op": "add",
+  "path": "/scripts",
+  "value": [ "/scripts/enhancedstorage.lua" ]
+},
+{
+  "op": "add",
+  "path": "/smashOnBreak",
+  "value": true
+}
+]

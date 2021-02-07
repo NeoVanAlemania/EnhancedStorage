@@ -1,0 +1,30 @@
+{
+
+  "frameGrid" : {
+    "size" : [32, 24],
+    "dimensions" : [5, 9],
+    "names" : [
+      [ "default.0", "default.1", "default.2", "default.3", "default.4" ],
+	  [ "red.0", "red.1", "red.2", "red.3", "red.4" ],
+	  [ "blue.0", "blue.1", "blue.2", "blue.3", "blue.4" ],
+      [ "green.0", "green.1", "green.2", "green.3", "green.4" ],
+	  [ "yellow.0", "yellow.1", "yellow.2", "yellow.3", "yellow.4" ],
+	  [ "orange.0", "orange.1", "orange.2", "orange.3", "orange.4" ],
+      [ "pink.0", "pink.1", "pink.2", "pink.3", "pink.4" ],
+	  [ "black.0", "black.1", "black.2", "black.3", "black.4" ],
+	  [ "white.0", "white.1", "white.2", "white.3", "white.4" ]
+    ]
+  },
+
+  "aliases" : {
+    "default.default" : "default.0",	//Apex
+    "red.default" : "red.0",			//Avian
+    "blue.default" : "blue.0",			//Human
+    "green.default" : "green.0",		//Hylotl
+    "yellow.default" : "yellow.0",		//Novakid
+    "orange.default" : "orange.0",		//Glitch
+    "pink.default" : "pink.0",			//Floran
+    "black.default" : "black.0",		//Black
+    "white.default" : "white.0"			//White
+  }
+}

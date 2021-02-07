@@ -1,0 +1,62 @@
+[
+{
+  "op": "replace",
+  "path": "/category",
+  "value": "storage"
+},
+{
+  "op": "add",
+  "path": "/objectType",
+  "value": "container"
+},
+{
+  "op": "add",
+  "path": "/tooltipKind",
+  "value": "container"
+},
+{
+  "op": "add",
+  "path": "/openSounds",
+  "value": [ "/sfx/objects/metalbarrel_open.ogg" ]
+},
+{
+  "op": "add",
+  "path": "/closeSounds",
+  "value": [ "/sfx/objects/metalbarrel_close.ogg" ]
+},
+{
+  "op": "add",
+  "path": "/slotCount",
+  "value": 40
+},
+{
+  "op": "add",
+  "path": "/uiConfig",
+  "value": "/interface/chests/chest<slots>.config"
+},
+{
+  "op": "add",
+  "path": "/frameCooldown",
+  "value": 5
+},
+{
+  "op": "add",
+  "path": "/autoCloseCooldown",
+  "value": 3600
+},
+{
+  "op": "replace",
+  "path": "/smashSounds",
+  "value": []
+},
+{
+  "op": "replace",
+  "path": "/scripts",
+  "value": [ "/scripts/enhancedstorage.lua" ]
+},
+{
+  "op": "add",
+  "path": "/smashOnBreak",
+  "value": true
+}
+]

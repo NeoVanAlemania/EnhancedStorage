@@ -1,0 +1,39 @@
+{
+  "id" : "EnhancedStorage",
+  "prerequisites" : [ "shiprepair" ],
+  "title" : "^green;Container Crafting Station",
+  "text" : "Hello there. I want to introduce you to my new ^green;Storage Matrix^white; to my right. It can be used to shape ^orange;Storage Matter^white; into all kinds of containers. Well, are you able to show me a ^orange;Filing Cabinet^white;, created from this station? I'll give you the blueprint.",
+  "completionText" : "You got it, nice! Here's your reward plus a small bonus. Oh and by the way, with a bit of luck you can find more ^orange;Storage Matter^white; from slain monsters outside!",
+  "moneyRange" : [50, 50],
+  "rewards" : [
+    [ [ "manipulatormodule", 1 ], [ "enhancedstoragematerial", 3 ] ]
+  ],
+  "canBeAbandoned" : false,
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/enhancedstoragequests.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : {
+        "portrait" : [ {"image" : "/objects/crafting/enhancedstorageshop/enhancedstorageshopportrait.png"} ],
+        "title" : "Neo"
+      },
+      "questComplete" : {
+        "portrait" : [ {"image" : "/objects/crafting/enhancedstorageshop/enhancedstorageshopportrait.png"} ],
+        "title" : "Neo"
+      }
+    },
+    "followUp" : "EnhancedStorage2",
+    "requireTurnIn" : true,
+    "turnInDescription" : "Deliver ^orange;Filing Cabinet^reset; to ^orange;Neo^reset; at the ^orange;outpost^reset;.",
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "filingcabinet",
+        "count" : 1,
+        "consume" : false,
+        "description" : "Acquire ^orange;<itemName>^reset;: ^green;<current> / <required>^reset;"
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "enhancedstoragematerial", "count" : 22 }
+  ],
+  "output" : { "item" : "classicdesk", "count" : 1 },
+  "duration" : 3,
+  "groups" : [ "containercraftingstation", "containercraftingstation_48slots", "containercraftingstation_allslots" ]
+}

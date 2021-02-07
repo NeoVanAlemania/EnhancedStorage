@@ -1,0 +1,56 @@
+{
+  "objectName" : "cropshipper2",
+  "colonyTags" : ["farming"],
+  "printable" : false,
+  "rarity" : "Rare",
+
+  "category" : "shippingContainer",
+  "price" : 5000,
+  "description" : "Sell food and produce with a value of 30%, by teleporting to Terramart.\n^green;Can be used anywhere.^white;",
+  "shortdescription" : "^orange;Terramart Shipments 2.0^white;",
+  "race" : "generic",
+
+  "apexDescription" : "Put the produce in the crate, teleport the crate to Terramart, get pixels for the produce. Very handy.",
+  "avianDescription" : "A crate that can be teleportet to Terramart? If you're going to sell produce, this is the way to do it.",
+  "floranDescription" : "Sselling stuff is boring... Unless you teleport a crate to Terramart to do it!",
+  "glitchDescription" : "Excited. A teleport shipping system! I can sell produce to Terramart by teleporting!",
+  "humanDescription" : "I can teleport stuff to Terramart with this! And if it's the right stuff, I'll get paid to do it!",
+  "hylotlDescription" : "This device teleports crates to Terramart. A somewhat novel way of selling produce...",
+  "novakidDescription" : "Teleporting a my produce to Terramart, get pixels for it.",
+
+  "inventoryIcon" : "cropshipper2icon.png",
+  "orientations" : [
+    {
+      "direction" : "right",
+
+      "image" : "cropshipper2.png:ready.1",
+      "imagePosition" : [-32, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "cropshipper2.animation",
+  "animationPosition" : [-32, 0],
+
+  "health" : 1.5,
+
+  "objectType" : "container",
+
+  "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
+  "frameCount" : 1,
+  "slotCount" : 40,
+  "uiConfig" : "/interface/scripted/cropshipper/cropshippergui.config",
+  "frameCooldown" : 5,
+  "openFrameIndex" : 1,
+  "autoCloseCooldown" : 3600,
+
+  "scripts" : [ "/objects/generic/enhancedstorageshipper2/enhancedstorageshipper2.lua" ],
+  "scriptDelta" : 5,
+
+  "launchDuration" : 3.5,
+  "launchTiming" : 1.1,
+  "launchPosition" : [0.125, 7.25]
+}

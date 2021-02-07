@@ -1,0 +1,53 @@
+{
+  "objectName" : "enhancedstorageshipper2",
+  "colonyTags" : ["farming"],
+  "printable" : false,
+  "rarity" : "Legendary",
+  "objectType" : "container",
+  "category" : "shippingContainer",
+  "price" : 5000,
+  "description" : "Sell all goods with a value of 20%, by teleporting to the Outpost.\n^green;Can be used anywhere.^white;",
+  "shortdescription" : "^orange;Enhanced Shipments 2.0^white;",
+  "race" : "generic",
+  "health" : 1.5,
+
+  "apexDescription" : "Put the goods in the crate, teleport the crate to the Outpost, get pixels for the goods. Very handy.",
+  "avianDescription" : "A crate that can be teleportet to the Outpost? If you're going to sell goods, this is the way to do it.",
+  "floranDescription" : "Sselling stuff is boring... Unless you teleport a crate to the Outpost to do it!",
+  "glitchDescription" : "Excited. A teleport shipping system! I can sell goods to the Outpost by teleporting!",
+  "humanDescription" : "I can teleport stuff to the Outpost with this! And if it's the right stuff, I'll get paid to do it!",
+  "hylotlDescription" : "This device teleports crates into to the Outpost. A somewhat novel way of selling goods...",
+  "novakidDescription" : "Teleporting a my stuff to the Outpost, get pixels for it.",
+
+  "inventoryIcon" : "enhancedstorageshipper2icon.png",
+  "orientations" : [
+    {
+      "direction" : "right",
+
+      "image" : "enhancedstorageshipper2.png:ready.1",
+      "imagePosition" : [-32, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "enhancedstorageshipper2.animation",
+  "animationPosition" : [-32, 0],
+
+  "openSounds" : [ "/sfx/objects/airlock_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/airlock_close.ogg" ],
+  "frameCount" : 1,
+  "slotCount" : 40,
+  "uiConfig" : "/interface/scripted/enhancedstorageshipper/enhancedstorageshippergui.config",
+  "frameCooldown" : 5,
+  "openFrameIndex" : 1,
+  "autoCloseCooldown" : 3600,
+
+  "scripts" : [ "/objects/generic/enhancedstorageshipper2/enhancedstorageshipper2.lua" ],
+  "scriptDelta" : 5,
+
+  "launchDuration" : 3.5,
+  "launchTiming" : 1.1,
+  "launchPosition" : [0.125, 7.25]
+}

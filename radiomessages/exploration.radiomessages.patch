@@ -1,0 +1,9 @@
+[
+  {
+    "op": "add",
+    "path": "/invalidcropshipperitem",
+    "value": {
+      "text": "Improper item for shipping detected. Unfortunately it's not possible to ship all kinds of items with Terramart Shipments. You should find a general merchant for selling non-shippable goods."
+    }
+  }
+]

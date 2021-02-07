@@ -1,0 +1,9 @@
+[
+  {
+    "op": "add",
+    "path": "/interactData/items/1",
+    "value": {
+      "item": "cropshipper2"
+    }
+  }
+]

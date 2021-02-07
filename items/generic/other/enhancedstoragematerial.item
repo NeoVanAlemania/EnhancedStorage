@@ -1,0 +1,11 @@
+{
+  "itemName" : "enhancedstoragematerial",
+  "rarity" : "Rare",
+  "price" : 0,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "enhancedstoragematerial.png",
+  "description" : "A strange type of matter that can be reshaped at the Storage Matrix.",
+  "shortdescription" : "Storage Matter",
+  "radioMessagesOnPickup" : [ "pickupenhancedstoragematerial" ],
+  "itemTags" : [ "reagent" ]
+}

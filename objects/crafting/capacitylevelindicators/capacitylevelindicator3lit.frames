@@ -1,0 +1,24 @@
+{
+
+  "frameGrid" : {
+    "size" : [32, 16],
+    "dimensions" : [102, 1],
+    "names" : [
+      [ "lit_off", "lit_0",
+        "lit_1", "lit_2", "lit_3", "lit_4", "lit_5", "lit_6", "lit_7", "lit_8", "lit_9", "lit_10",
+        "lit_11", "lit_12", "lit_13", "lit_14", "lit_15", "lit_16", "lit_17", "lit_18", "lit_19", "lit_20",
+        "lit_21", "lit_22", "lit_23", "lit_24", "lit_25", "lit_26", "lit_27", "lit_28", "lit_29", "lit_30",
+        "lit_31", "lit_32", "lit_33", "lit_34", "lit_35", "lit_36", "lit_37", "lit_38", "lit_39", "lit_40",
+        "lit_41", "lit_42", "lit_43", "lit_44", "lit_45", "lit_46", "lit_47", "lit_48", "lit_49", "lit_50",
+        "lit_51", "lit_52", "lit_53", "lit_54", "lit_55", "lit_56", "lit_57", "lit_58", "lit_59", "lit_60",
+        "lit_61", "lit_62", "lit_63", "lit_64", "lit_65", "lit_66", "lit_67", "lit_68", "lit_69", "lit_70",
+        "lit_71", "lit_72", "lit_73", "lit_74", "lit_75", "lit_76", "lit_77", "lit_78", "lit_79", "lit_80",
+        "lit_81", "lit_82", "lit_83", "lit_84", "lit_85", "lit_86", "lit_87", "lit_88", "lit_89", "lit_90",
+        "lit_91", "lit_92", "lit_93", "lit_94", "lit_95", "lit_96", "lit_97", "lit_98", "lit_99", "lit_100" ]
+    ]
+  },
+
+  "aliases" : {
+    "default" : "lit_off"
+  }
+}

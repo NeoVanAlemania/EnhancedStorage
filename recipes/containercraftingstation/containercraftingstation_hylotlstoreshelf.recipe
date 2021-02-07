@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "enhancedstoragematerial", "count" : 17 }
+  ],
+  "output" : { "item" : "hylotlstoreshelf", "count" : 1 },
+  "duration" : 3,
+  "groups" : [ "containercraftingstation", "containercraftingstation_80slots", "containercraftingstation_allslots" ]
+}

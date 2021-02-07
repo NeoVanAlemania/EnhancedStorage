@@ -1,0 +1,14 @@
+{
+
+  "frameGrid" : {
+    "size" : [8, 24],
+    "dimensions" : [22, 1],
+    "names" : [
+      [ "lit_off", "lit_0", "lit_1", "lit_2", "lit_3", "lit_4", "lit_5", "lit_6", "lit_7", "lit_8", "lit_9", "lit_10", "lit_11", "lit_12", "lit_13", "lit_14", "lit_15", "lit_16", "lit_17", "lit_18", "lit_19", "lit_20" ]
+    ]
+  },
+
+  "aliases" : {
+    "default" : "lit_off"
+  }
+}

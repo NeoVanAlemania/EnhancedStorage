@@ -1,0 +1,11 @@
+{
+  "itemName" : "enhancedstoragematerialfragment",
+  "rarity" : "Rare",
+  "price" : 0,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "enhancedstoragematerialfragment.png",
+  "description" : "A fragment of Storage Matter.",
+  "shortdescription" : "Storage Matter Fragment",
+  "radioMessagesOnPickup" : [ "pickupenhancedstoragematerialfragment" ],
+  "itemTags" : [ "reagent" ]
+}

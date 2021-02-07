@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "enhancedstoragematerial", "count" : 16 }
+  ],
+  "output" : { "item" : "volcanicchest", "count" : 1 },
+  "duration" : 3,
+  "groups" : [ "containercraftingstation", "containercraftingstation_32slots", "containercraftingstation_allslots" ]
+}

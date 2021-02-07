@@ -1,0 +1,36 @@
+{
+  "objectName" : "capacitylevelindicator1",
+  "rarity" : "Uncommon",
+  "description" : "Shows the capacity level of a nearby container with a horizontal meter. \n^red;Interacting changes the style.^white;",
+  "shortdescription" : "Capacity Level Indicator",
+  "race" : "generic",
+  "printable" : false,
+
+  "category" : "wire",
+  "price" : 500,
+
+  "inventoryIcon" : "capacitylevelindicator1icon.png",
+  "orientations" : [
+    {
+      "image" : "capacitylevelindicator1area.png",
+      "imagePosition" : [-40, -40],
+      "direction" : "right",
+      "flipImages" : false,
+      "spaces" : [ [-1, 0], [0, 0], [1, 0] ],
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "interactAction" : "onInteraction",
+  "scripts" : [ "/scripts/capacitylevelindicator.lua" ],
+  "scriptDelta" : 30,
+  "style" : "metal",
+
+  "animationFrames" : 20,
+  "animationPosition" : [-8, 0],
+  "animation" : "/objects/crafting/capacitylevelindicators/capacitylevelindicator1.animation",
+  "animationParts" : {
+    "capacitylevelindicator1" : "capacitylevelindicator1.png",
+    "capacitylevelindicator1lit" : "capacitylevelindicator1lit.png"
+  }
+}

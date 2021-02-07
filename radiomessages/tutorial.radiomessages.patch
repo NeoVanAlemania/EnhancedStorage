@@ -1,0 +1,18 @@
+[
+{
+  "op": "add",
+  "path": "/pickupenhancedstoragematerial",
+  "value": {
+    "type" : "tutorial",
+    "text" : "You acquired Storage Matter. This material can be used to create your own storage objects and more. I suggest you find a proper machine through exploring the universe."
+  }
+},
+{
+  "op": "add",
+  "path": "/pickupenhancedstoragematerialfragment",
+  "value": {
+    "type" : "tutorial",
+    "text" : "You have found a Storage Matter Fragment. My databanks tell me you can convert 10 of those fragments in your personal crafting menu into Storage Matter."
+  }
+}
+]

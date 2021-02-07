@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "enhancedstoragematerial", "count" : 90 }
+  ],
+  "output" : { "item" : "librarybookcaseHUGE", "count" : 1 },
+  "duration" : 3,
+  "groups" : [ "containercraftingstation", "containercraftingstation_300slots", "containercraftingstation_allslots" ]
+}

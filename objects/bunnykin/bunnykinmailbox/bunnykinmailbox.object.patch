@@ -1,0 +1,17 @@
+[
+{
+  "op": "replace",
+  "path": "/slotCount",
+  "value": 32
+},
+{
+  "op": "replace",
+  "path": "/scripts",
+  "value": [ "/scripts/npcToyObject.lua", "/scripts/enhancedstorage.lua" ]
+},
+{
+  "op": "add",
+  "path": "/smashOnBreak",
+  "value": true
+}
+]

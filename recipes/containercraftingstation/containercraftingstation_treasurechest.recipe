@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "enhancedstoragematerial", "count" : 17 }
+  ],
+  "output" : { "item" : "treasurechest", "count" : 1 },
+  "duration" : 3,
+  "groups" : [ "containercraftingstation", "containercraftingstation_40slots", "containercraftingstation_allslots" ]
+}

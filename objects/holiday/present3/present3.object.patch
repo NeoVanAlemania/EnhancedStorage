@@ -1,0 +1,22 @@
+[
+{
+  "op": "replace",
+  "path": "/slotCount",
+  "value": 24
+},
+{
+  "op": "replace",
+  "path": "/price",
+  "value": 48
+},
+{
+  "op": "add",
+  "path": "/scripts",
+  "value": [ "/scripts/enhancedstorage.lua" ]
+},
+{
+  "op": "add",
+  "path": "/smashOnBreak",
+  "value": true
+}
+]

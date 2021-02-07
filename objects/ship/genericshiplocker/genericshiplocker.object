@@ -1,0 +1,44 @@
+{
+  "objectName" : "genericshiplocker",
+  "colonyTags" : ["storage"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "description" : "A locker. Store some stuff, why don't you?",
+  "shortdescription" : "Generic Shiplocker",
+  "race" : "generic",
+
+  //"lightColor" : [100, 100, 100],
+  //"lightPosition" : [0, 0],
+
+  "apexDescription" : "The ship's storage system.",
+  "avianDescription" : "A locker, for storing lots of useful items.",
+  "floranDescription" : "Floran sstore many usseful thingss in here for exploring universse.",
+  "glitchDescription" : "Pleased. A good Glitch storage locker.",
+  "humanDescription" : "A ship's locker.",
+  "hylotlDescription" : "A secure locker. Only the most cunning of thieves could break in.",
+  "novakidDescription" : "A safe place to store my loot.",
+
+  "inventoryIcon" : "shiplockericon.png",
+  "orientations" : [
+    {
+      //"imageLayers" : [ { "image" : "genericshiplocker.png:<color>.<frame>", "fullbright" : true }, { "image" : "genericshiplockerlit.png:<color>.<frame>" } ],
+	  "image" : "genericshiplocker.png:<color>.<frame>",
+      "imagePosition" : [-16, -8],
+      "frames" : 8,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
+  "slotCount" : 256,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 11,
+  "autoCloseCooldown" : 3600
+}

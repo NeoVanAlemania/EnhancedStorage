@@ -1,0 +1,410 @@
+[
+  // ================================
+  //         Generic Monsters
+  // ================================
+
+  {
+    "op": "add",
+    "path": "/basicMonsterTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/flyingMonsterTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/robotTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/robothenbabyTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/robothenTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/noMeatMonsterTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/weaklingMonsterTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/smallfishtreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/largefishtreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  
+
+  // ================================
+  //       Generated Monsters
+  // ================================
+
+  {
+    "op": "add",
+    "path": "/generatedGroundMonsterTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/generatedFlyingMonsterTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+
+
+  // ================================
+  //        Unique Monsters
+  // ================================
+
+  {
+    "op": "add",
+    "path": "/adultpoptopTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/anglureTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/agrobatTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/batongTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/bobfaeTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/bobotTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/bulbopTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/capricoatTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/crabcanoTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/crustoiseTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/crutterTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/fennixTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/gleapTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/hemogoblinTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/hypnareTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/ignomeTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/iguarmorTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/ixolingTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/kluexsentryTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/lilodonTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/lumothTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/mandrafloraTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/miasmopTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/monopusTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/narfinTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/nautileechTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/nutmidgelingTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/oculobTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/ooglerTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/orbideTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/peblitTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/petricubTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/pipkinTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/poptopTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/pteropodTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/pulpinTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/pyromantleTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/quagmuttTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/ringramTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/scandroidTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/scaveranTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/skimbusTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/smoglinTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/snagglerTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/snauntTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/snuffishTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/spookitTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/sporgusTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/squeemTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/gosmetTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/taroniTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/tinticTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/toumingoTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/trictusTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/triplodTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/voltipTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/wisperTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/yokatTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+
+
+  // ================================
+  //   Unique Monster (Vault Pools)
+  // ================================
+
+  {
+    "op": "add",
+    "path": "/essenceDrop/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+
+
+  // ================================
+  //       Old Unique Monsters
+  // ================================
+
+  {
+    "op": "add",
+    "path": "/bonebirdTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/chickentreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/moontantTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/pogolemTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/smallRobotTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  },
+  {
+    "op": "add",
+    "path": "/largeRobotTreasure/0/1/fill",
+    "value": [ { "pool" : "enhancedstoragematerial" } ]
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "op": "replace",
+    "path": "/scripts",
+    "value": [ "/scripts/mannequin.lua" ]
+  },
+  {
+    "op": "add",
+    "path": "/smashOnBreak",
+    "value": true
+  }
+]

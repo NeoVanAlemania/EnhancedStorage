@@ -1,0 +1,4 @@
+﻿[
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "capturepodchest" }},
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "enhancedstoragematerial" }}
+]

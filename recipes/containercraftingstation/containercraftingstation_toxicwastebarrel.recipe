@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "enhancedstoragematerial", "count" : 10 }
+  ],
+  "output" : { "item" : "toxicwastebarrel", "count" : 1 },
+  "duration" : 3,
+  "groups" : [ "containercraftingstation", "containercraftingstation_40slots", "containercraftingstation_allslots" ]
+}

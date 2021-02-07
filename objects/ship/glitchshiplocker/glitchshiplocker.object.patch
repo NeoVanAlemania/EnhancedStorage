@@ -1,0 +1,43 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/slotCount",
+      "value" : 256
+    },
+    {
+      "op": "replace",
+      "path": "/slotCount",
+      "value": 300
+    },
+    {
+      "op": "add",
+      "path": "/LargerLockersMod",
+      "value": true
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/LargerLockersMod",
+      "inverse" : true
+    },
+    {
+      "op": "replace",
+      "path": "/slotCount",
+      "value": 100
+    }
+  ],
+  [
+    {
+      "op": "add",
+      "path": "/scripts",
+      "value": [ "/scripts/enhancedstorage.lua" ]
+    },
+    {
+      "op": "add",
+      "path": "/smashOnBreak",
+      "value": true
+    }
+  ]
+]

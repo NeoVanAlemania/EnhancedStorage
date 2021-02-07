@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "enhancedstoragematerial", "count" : 16 }
+  ],
+  "output" : { "item" : "woodencabinet3", "count" : 1 },
+  "duration" : 3,
+  "groups" : [ "containercraftingstation", "containercraftingstation_48slots", "containercraftingstation_allslots" ]
+}

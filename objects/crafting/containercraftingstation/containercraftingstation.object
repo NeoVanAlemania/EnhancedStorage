@@ -1,0 +1,53 @@
+{
+  "objectName" : "containercraftingstation",
+  "colonyTags" : ["crafting"],
+  "rarity" : "Legendary",
+  "printable" : false,
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/containercraftingstation.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "^orange;Storage Matrix^white;",
+        "subtitle" : "Reshapes Storage Matter",
+        "icon" : {
+          "file" : "/interface/crafting/containercraftingstation.png"
+        }
+      }
+    },
+    "filter" : [ "containercraftingstation" ]
+  },
+  "description" : "Reshapes Storage Matter into many types of container.",
+  "shortdescription" : "^orange;Storage Matrix^white;",
+  "race" : "generic",
+  "category" : "Reshapes Storage Matter",
+  "price" : 2000,
+  "health" : 10,
+
+  "apexDescription" : "The Storage Matrix. I can create storage containers from Storage Matter here.",
+  "avianDescription" : "The Storage Matrix is perfect for creating storage containers.",
+  "floranDescription" : "A ssstation for creating ssstorage containersss.",
+  "glitchDescription" : "Curious. This Storage Matrix is the perfect machine for creating storage containers.",
+  "humanDescription" : "The Storage Matrix, looks very big and complex.",
+  "hylotlDescription" : "How strange. A station for creating storage containers.",
+  "novakidDescription" : "The Storage Matrix. The technology inside must be very complex.",
+
+  "lightColor" : [89, 140, 179],
+  "lightPosition" : [0, 8],
+
+  "inventoryIcon" : "containercraftingstationicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "containercraftingstation.png:<color>.<frame>" }, { "image" : "containercraftingstationlit.png:<color>.<frame>", "fullbright" : true } ],
+      "flipImages" : false,
+      "direction" : "right",
+
+      "imagePosition" : [-40, 0],
+      "frames" : 147,
+      "animationCycle" : 7.35,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

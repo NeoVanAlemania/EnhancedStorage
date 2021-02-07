@@ -1,0 +1,57 @@
+{
+  "objectName" : "liquidtank3",
+  "tags" : ["storage", "liquid"],
+  "rarity" : "Uncommon",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "storage",
+  "price" : 600,
+  "printable" : false,
+  "description" : "A tank for storing liquids.",
+  "shortdescription" : "Liquid Tank (XL)",
+  "race" : "generic",
+
+  "apexDescription" : "A liquid tank that is waterproofed.",
+  "avianDescription" : "A waterproofed liquid tank.",
+  "floranDescription" : "Container for sstoring liquidss insside.",
+  "glitchDescription" : "Impressed. This tank is large enough to hold a lot of liquid inside.",
+  "humanDescription" : "A liquid tank. Looks like it's been waterproofed.",
+  "hylotlDescription" : "A basic liquid tank. It's good for keeping a lot of liquid.",
+  "novakidDescription" : "A fancy tank for storin' liquids.",
+
+  "inventoryIcon" : "liquidtank3icon.png",
+  "orientations" : [
+    {
+      "image" : "liquidtank3.png:default",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "image" : "liquidtank3.png:default",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "animationFrames" : 57,
+  "animation" : "/objects/generic/liquidtanks/liquidtank3/liquidtank3.animation",
+  "animationParts" : { "tank" : "liquidtank3.png", "tanklit" : "liquidtank3lit.png" },
+  "animationPosition" : [-8, 0],
+  "openSounds" : [ "/sfx/objects/liquidtank_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/liquidtank_close.ogg" ],
+  "slotCount" : 56,
+  "uiConfig" : "/interface/scripted/liquidtanks/liquidtank<slots>.config",
+  "scripts" : [ "/scripts/liquidtanks.lua" ],
+  "scriptDelta" : 20,
+  "frameCooldown" : 32,
+  "autoCloseCooldown" : 3600,
+
+  "smashOnBreak" : true
+}

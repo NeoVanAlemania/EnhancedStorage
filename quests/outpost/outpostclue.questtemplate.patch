@@ -1,0 +1,41 @@
+[
+{
+  "op": "replace",
+  "path": "/scriptConfig/targetValue",
+  "value": 80
+},
+{
+  "op": "add",
+  "path": "/scriptConfig/objectValues/containercraftingstation",
+  "value": 10
+},
+{
+  "op": "add",
+  "path": "/scriptConfig/objectValues/containercraftingstationclosed",
+  "value": 10
+},
+{
+  "op": "add",
+  "path": "/scriptConfig/radioMessages/uniqueProgress/containercraftingstation",
+  "value": {
+    "messageId" : "outpostclue_up8",
+    "type" : "quest",
+    "unique" : false,
+    "senderName" : "Esther",
+    "text" : "You can create your own storage containers from this station. Perfect for storing your stuff, beside the Ship Locker.",
+    "portraitImage" : "/interface/chatbubbles/esthertalk.png:<frame>"
+  }
+},
+{
+  "op": "add",
+  "path": "/scriptConfig/radioMessages/uniqueProgress/containercraftingstationclosed",
+  "value": {
+    "messageId" : "outpostclue_up8b",
+    "type" : "quest",
+    "unique" : false,
+    "senderName" : "Esther",
+    "text" : "You can create your own storage containers from this station. Perfect for storing your stuff, beside the Ship Locker.",
+    "portraitImage" : "/interface/chatbubbles/esthertalk.png:<frame>"
+  }
+}
+]
