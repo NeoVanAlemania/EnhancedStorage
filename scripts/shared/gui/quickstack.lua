@@ -1,6 +1,20 @@
 function transferInventoryItems()
 	local containerItems = world.containerItems(pane.containerEntityId())
+	if not containerItems then
+		if world.entityExists(pane.containerEntityId()) then
+			world.sendEntityMessage(pane.containerEntityId(), "stackingCanceled", "No items apparently?")
+		end
+		return
+	end
+	
 	local containerSize = world.containerSize(pane.containerEntityId())
+	if not containerSize then
+		if world.entityExists(pane.containerEntityId()) then
+			world.sendEntityMessage(pane.containerEntityId(), "stackingCanceled", "Not a container maybe?")
+		end
+		return
+	end
+	
 	local equippedItems = getListEquippedItems()
 	local transferCanceled = {}
 	local containerFreeSlots = {}

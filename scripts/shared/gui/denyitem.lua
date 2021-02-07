@@ -1,6 +1,6 @@
 function denyInvalidItems(checkName, checkCategory, checkType)
 	local validItemList = {}
-	local containerItems = world.containerItems(pane.containerEntityId())
+	local containerItems = world.containerItems(pane.containerEntityId()) or {}
 	for _, containerItem in pairs(containerItems) do
 		validItem = false
 
@@ -38,8 +38,9 @@ function denyInvalidItems(checkName, checkCategory, checkType)
 
 		-- give back invalid items
 		if not validItem then
-			world.containerConsume(pane.containerEntityId(), containerItem)
-			player.giveItem(containerItem)
+			if world.containerConsume(pane.containerEntityId(), containerItem) then
+				player.giveItem(containerItem)
+			end
 		else
 			table.insert(validItemList, containerItem)
 		end
