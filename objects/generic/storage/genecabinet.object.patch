@@ -1,0 +1,7 @@
+[
+	[{"op": "test","path": "/scripts","inverse":true},{"op":"add","path":"/scripts","value":[]}],
+	[{"op": "test","path": "/scripts"},{"op": "add","path": "/scripts/-","value": "/scripts/enhancedstorage.lua"}],
+	[{"op": "test","path": "/slotCount"},{"op": "replace","path": "/slotCount","value": 130}],
+	[{"op": "test","path": "/slotCount","inverse": true},{"op": "add","path": "/slotCount","value": 130}],
+	[{"op": "add","path": "/smashOnBreak","value": true}]
+]
