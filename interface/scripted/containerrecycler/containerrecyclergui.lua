@@ -28,12 +28,15 @@ function denyInvalidItems()
 				validItem = true
 				break
 			end
-
+			
+			--[[voiding this.
 			-- give back invalid items
 			if not validItem then
-				world.containerConsume(pane.containerEntityId(), itemAtSlot)
-				player.giveItem(itemAtSlot)
-			end
+				local succeeded = world.containerConsume(pane.containerEntityId(), itemAtSlot)
+				if succeeded then
+					player.giveItem(itemAtSlot)
+				end
+			end]]
 		end
 	end
 end
