@@ -1,12 +1,3 @@
 [
-{
-  "op": "add",
-  "path": "/outpost_mission1/actions/-",
-  "value": {
-    "type" : "placeDungeon",
-    "dungeonId" : "outpost_containercraftingstation2",
-    "targetInstance" : "outpost",
-    "targetPosition" : [401, 637]
-  }
-}
+	[{"op": "add","path": "/outpost_enhancedstorage","value": {"actions": [{"type": "placeDungeon","dungeonId": "outpost_containercraftingstation2","targetInstance": "outpost","targetPosition": [401,637]}]}}]
 ]
