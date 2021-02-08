@@ -2,15 +2,15 @@ require("/scripts/shared/gui/denyitem.lua")
 require("/scripts/shared/gui/options.lua")
 
 function init()
-	acceptItems = config.getParameter("acceptItems")
+	--acceptItems = config.getParameter("acceptItems")
 	initOptions("/interface/chests/capturepodchest")
 end
 
 
 function update(dt)
-	if acceptItems then
+	--[[if acceptItems then
 		denyInvalidItems(true, false, false)
-	end
+	end]]
 
 	capturepodImage()
 end

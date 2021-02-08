@@ -12,35 +12,36 @@ end
 
 
 function update(dt)
-	if not liquidContainerActive then
+	--[[if not liquidContainerActive then
 		liquidContainer()
-	end
+	end]]
 end
 
 
 function liquidContainer()
-	liquidContainerActive = true
+	--[[liquidContainerActive = true]]
 
 	-- set current liquid
-	local content = world.containerItems(pane.containerEntityId())
+	--[[local content = world.containerItems(pane.containerEntityId())
 	if next(content) ~= nil then
 		for k, item in pairs(content) do
 			if currentLiquid == "" then
 				if root.itemType(item.name) == "liquid" then
 					currentLiquid = item.name
 				end
-			end
+			end]]
+			--should NEVER do this in a UI pane, bugs out in multiplayer
 			-- give player invalid items back
-			if currentLiquid ~= item.name then
+			--[[if currentLiquid ~= item.name then
 				world.containerConsume(pane.containerEntityId(), item)
 				player.giveItem(item)
-			end
-		end
+			end]]
+	--[[	end
 	else
 		currentLiquid = ""
 	end
 
-	liquidContainerActive = false
+	liquidContainerActive = false]]
 end
 
 

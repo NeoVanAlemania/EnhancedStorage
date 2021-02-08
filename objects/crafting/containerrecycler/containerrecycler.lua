@@ -81,8 +81,10 @@ function crafting()
 		end
 
 		-- consume item and generate output
-		world.containerConsumeAt(entity.id(), consumeItemAt, 1)
-		world.containerPutItemsAt(entity.id(), { name = "enhancedstoragematerialfragment", count = outputCount, parameters = {} }, containerSize - 1)
+		local succeeded=world.containerConsumeAt(entity.id(), consumeItemAt, 1)
+		if succeeded then
+			world.containerPutItemsAt(entity.id(), { name = "enhancedstoragematerialfragment", count = outputCount, parameters = {} }, containerSize - 1)
+		end
 		consumeItemAt = nil
 	end
 end

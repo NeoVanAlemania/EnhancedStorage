@@ -38,13 +38,26 @@ function setAnimationState()
 	-- get current liquid
 	local content = world.containerItems(entity.id())
 	if next(content) ~= nil then
+		currentLiquid=""
+		object.setLightColor({0, 0, 0})
 		for _, item in pairs(content) do
-			currentLiquid = item.name
-			-- set light color for current liquid
-			if liquidTypes[item.name] and next(liquidTypes[item.name]) ~= nil then
-				object.setLightColor(liquidTypes[item.name])
+			local iConf=root.itemConfig(item)
+			if iConf.parameters.liquid or iConf.config.liquid then
+				local liqName=iConf.parameters.liquid or iConf.config.liquid
+				local liqConfig=root.liquidConfig(liqName)
+				liqConfig=liqConfig.config or nil
+				if liqConfig then
+					currentLiquid = item.name
+					--sb.logInfo("liqConfig: %s",liqConfig)
+					local color=liqConfig.radiantLight or liqConfig.color or {0,0,0}
+					object.setLightColor(color)
+					-- set light color for current liquid
+					--[[if liquidTypes[item.name] and next(liquidTypes[item.name]) ~= nil then
+						object.setLightColor(liquidTypes[item.name])
+					end]]
+					break
+				end
 			end
-			break
 		end
 	else
 		currentLiquid = ""
