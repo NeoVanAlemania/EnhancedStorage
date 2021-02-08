@@ -1,18 +1,26 @@
 [
-{
-  "op": "add",
-  "path": "/pickupenhancedstoragematerial",
-  "value": {
-    "type" : "tutorial",
-    "text" : "You acquired Storage Matter. This material can be used to create your own storage objects and more. I suggest you find a proper machine through exploring the universe."
-  }
-},
-{
-  "op": "add",
-  "path": "/pickupenhancedstoragematerialfragment",
-  "value": {
-    "type" : "tutorial",
-    "text" : "You have found a Storage Matter Fragment. My databanks tell me you can convert 10 of those fragments in your personal crafting menu into Storage Matter."
-  }
-}
+	[{
+		"op": "add",
+		"path": "/pickupenhancedstoragematerial",
+		"value": {
+			"type" : "tutorial",
+			"text" : "You acquired Storage Matter. This material can be used to create your own storage objects and more. I suggest you find a proper machine through exploring the universe."
+		}
+	}],
+	[{
+		"op": "add",
+		"path": "/pickupenhancedstoragematerialfragment",
+		"value": {
+			"type" : "tutorial",
+			"text" : "You have found a Storage Matter Fragment. My databanks tell me you can convert 10 of those fragments in your personal crafting menu into Storage Matter."
+		}
+	}],
+	[{
+		"op": "add",
+		"path": "/enhancedstorageincompatiblemod",
+		"value": {
+			"unique" : false,
+			"text" : "You are using a mod that is incompatible with Enhanced Storage, such as Improved Containers. If you do not remove the conflict, you will crash to main menu on using a container."
+		}
+	}]
 ]
