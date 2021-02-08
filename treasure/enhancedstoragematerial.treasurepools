@@ -6,8 +6,8 @@
         {"weight" : 1.00, "item" : [ "enhancedstoragematerial", 1]}
       ],
       "poolRounds" : [
-        [0.97, 0],
-        [0.03, 1]
+        [0.95, 0],
+        [0.05, 1]
       ],
       "allowDuplication" : true
     }]
