@@ -26,8 +26,15 @@
   [{"op": "test","path": "/slotCount"},{"op": "test","path": "/autoCloseCooldown"},{"op": "replace","path": "/autoCloseCooldown","value": 3600}],
   [{"op": "test","path": "/slotCount"},{"op": "test","path": "/autoCloseCooldown","inverse":true},{"op": "add","path": "/autoCloseCooldown","value": 3600}],
 
+  [{"op": "test","path": "/slotCount"},{"op": "test","path": "/smashable"},{"op": "remove","path": "/smashable"}],
+  [{"op": "test","path": "/slotCount"},{"op": "test","path": "/smashSounds"},{"op": "remove","path": "/smashSounds"}],
+  [{"op": "test","path": "/slotCount"},{"op": "test","path": "/smashDropPool"},{"op": "remove","path": "/smashDropPool"}],
+  [{"op": "test","path": "/slotCount"},{"op": "test","path": "/explosionProjectile"},{"op": "remove","path": "/explosionProjectile"}],
+  [{"op": "test","path": "/slotCount"},{"op": "test","path": "/explosionOffset"},{"op": "remove","path": "/explosionOffset"}],
+
+  [{"op": "test","path": "/slotCount"},{"op": "test","path": "/scripts"},{"op": "replace","path": "/scripts","value": [ "/scripts/enhancedstorage.lua" ]}],
   [{"op": "test","path": "/slotCount"},{"op": "test","path": "/scripts", "inverse":true},{"op": "add","path": "/scripts","value": []}],
   [{"op": "test","path": "/slotCount"},{"op": "add","path": "/scripts/-","value": "/scripts/enhancedstorage.lua"}],
 
-  [{"op": "test","path": "/slotCount"},{"op": "add","path": "/smashOnBreak","value": true}]
+  [{"op": "test","path": "/slotCount"},{"op": "test","path": "/smashOnBreak"},{"op": "replace","path": "/smashOnBreak","value": true}]
 ]
