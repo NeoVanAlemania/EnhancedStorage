@@ -1,5 +1,6 @@
 [
   [{"op": "test","path": "/slotCount"},{"op": "replace","path": "/slotCount","value": 40}],
+  [{"op": "test","path": "/slotCount","inverse":true},{"op": "add","path": "/slotCount","value": 40}],
 
   [{"op": "test","path": "/slotCount"},{"op": "test","path": "/objectType"},{"op": "replace","path": "/objectType","value": "container"}],
   [{"op": "test","path": "/slotCount"},{"op": "test","path": "/objectType","inverse":true},{"op": "add","path": "/objectType","value": "container"}],
@@ -12,6 +13,18 @@
 
   [{"op": "test","path": "/slotCount"},{"op": "test","path": "/uiConfig"},{"op": "replace","path": "/uiConfig","value": "/interface/chests/chest<slots>.config"}],
   [{"op": "test","path": "/slotCount"},{"op": "test","path": "/uiConfig","inverse":true},{"op": "add","path": "/uiConfig","value": "/interface/chests/chest<slots>.config"}],
+
+  [{"op": "test","path": "/slotCount"},{"op": "test","path": "/openSounds"},{"op": "replace","path": "/openSounds","value": [ "/sfx/objects/metalbarrel_open.ogg" ]}],
+  [{"op": "test","path": "/slotCount"},{"op": "test","path": "/openSounds","inverse":true},{"op": "add","path": "/openSounds","value": [ "/sfx/objects/metalbarrel_open.ogg" ]}],
+
+  [{"op": "test","path": "/slotCount"},{"op": "test","path": "/closeSounds"},{"op": "replace","path": "/closeSounds","value": [ "/sfx/objects/metalbarrel_close.ogg" ]}],
+  [{"op": "test","path": "/slotCount"},{"op": "test","path": "/closeSounds","inverse":true},{"op": "add","path": "/closeSounds","value": [ "/sfx/objects/metalbarrel_close.ogg" ]}],
+
+  [{"op": "test","path": "/slotCount"},{"op": "test","path": "/frameCooldown"},{"op": "replace","path": "/frameCooldown","value": 5}],
+  [{"op": "test","path": "/slotCount"},{"op": "test","path": "/frameCooldown","inverse":true},{"op": "add","path": "/frameCooldown","value": 5}],
+
+  [{"op": "test","path": "/slotCount"},{"op": "test","path": "/autoCloseCooldown"},{"op": "replace","path": "/autoCloseCooldown","value": 3600}],
+  [{"op": "test","path": "/slotCount"},{"op": "test","path": "/autoCloseCooldown","inverse":true},{"op": "add","path": "/autoCloseCooldown","value": 3600}],
 
   [{"op": "test","path": "/slotCount"},{"op": "test","path": "/scripts", "inverse":true},{"op": "add","path": "/scripts","value": []}],
   [{"op": "test","path": "/slotCount"},{"op": "add","path": "/scripts/-","value": "/scripts/enhancedstorage.lua"}],
