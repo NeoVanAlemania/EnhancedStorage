@@ -14,8 +14,8 @@ function update(dt)
 
 		-- continue if output slot is empty or has enhancedstoragematerial
 		local outputSlot = world.containerItemAt(entity.id(), containerSize - 1)
-		local maxStack = getItemConfig("enhancedstoragematerialfragment").maxStack
-		if not outputSlot or (outputSlot.name == "enhancedstoragematerialfragment" and outputSlot.count < maxStack) then
+		local maxStack = getItemConfig("enhancedstoragematerial").maxStack
+		if not outputSlot or (outputSlot.name == "enhancedstoragematerial" and outputSlot.count < maxStack) then
 
 			-- look for items in input slots
 			for i = 0, containerSize - 2 do
@@ -68,8 +68,8 @@ end
 function crafting()
 	local inputSlot = world.containerItemAt(entity.id(), consumeItemAt)
 	local outputSlot = world.containerItemAt(entity.id(), containerSize - 1)
-	local maxStack = getItemConfig("enhancedstoragematerialfragment").maxStack
-	if inputSlot and (not outputSlot or (outputSlot.name == "enhancedstoragematerialfragment" and outputSlot.count < maxStack)) then
+	local maxStack = getItemConfig("enhancedstoragematerial").maxStack
+	if inputSlot and (not outputSlot or (outputSlot.name == "enhancedstoragematerial" and outputSlot.count < maxStack)) then
 
 		-- randomize output count
 		local outputCount = 1
@@ -83,7 +83,7 @@ function crafting()
 		-- consume item and generate output
 		local succeeded=world.containerConsumeAt(entity.id(), consumeItemAt, 1)
 		if succeeded then
-			world.containerPutItemsAt(entity.id(), { name = "enhancedstoragematerialfragment", count = outputCount, parameters = {} }, containerSize - 1)
+			world.containerPutItemsAt(entity.id(), { name = "enhancedstoragematerial", count = outputCount, parameters = {} }, containerSize - 1)
 		end
 		consumeItemAt = nil
 	end
