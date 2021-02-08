@@ -20,7 +20,7 @@
 		"path": "/enhancedstorageincompatiblemod",
 		"value": {
 			"unique" : false,
-			"text" : "You are using a mod that is incompatible with Enhanced Storage, such as Improved Containers. If you do not remove the conflict, you will crash to main menu on using a container."
+			"text" : "You are using a mod that is ^red;incompatible^reset; with Enhanced Storage, such as ^red;Improved Containers^reset;. If you do not remove the conflict, you will ^red;crash to main menu^reset; on using a container."
 		}
 	}]
 ]
