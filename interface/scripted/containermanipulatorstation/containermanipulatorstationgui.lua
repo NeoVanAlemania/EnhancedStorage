@@ -8,10 +8,8 @@ function init()
 
 	-- init addons
 	addonVersion = root.assetJson("/ES_version.config:addonVersion")
-	validSlots = { 9, 12, 16, 24, 32, 40, 48, 56, 64, 72, 80, 90, 100 }
-	if addonVersion == "hoarder" then
-		validSlots = { 9, 12, 16, 24, 32, 40, 48, 56, 64, 72, 80, 90, 100, 110, 120, 130, 140, 150, 160, 180, 200, 300 }
-	elseif addonVersion == "lite" then
+	validSlots = { 9, 12, 16, 24, 32, 40, 48, 56, 64, 72, 80, 90, 100, 110, 120, 130, 140, 150, 160, 180, 200, 300 }
+	if addonVersion == "lite" then
 		validSlots = { 9, 12, 16, 24, 32, 40, 48, 56, 64 }
 	end
 end
