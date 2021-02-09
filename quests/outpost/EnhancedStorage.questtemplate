@@ -6,7 +6,7 @@
   "completionText" : "You got it, nice! Here's your reward plus a small bonus. Oh and by the way, with a bit of luck you can find more ^orange;Storage Matter^white; from slain monsters outside!",
   "moneyRange" : [50, 50],
   "rewards" : [
-    [ [ "manipulatormodule", 1 ], [ "enhancedstoragematerial", 3 ] ]
+    [ [ "manipulatormodule", 1 ], [ "enhancedstoragematerial", 50 ] ]
   ],
   "canBeAbandoned" : false,
 
