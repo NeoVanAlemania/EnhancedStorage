@@ -4,9 +4,6 @@
   [{"op": "test","path": "/slotCount"},{"op": "test","path": "/objectType"},{"op": "replace","path": "/objectType","value": "container"}],
   [{"op": "test","path": "/slotCount"},{"op": "test","path": "/objectType","inverse":true},{"op": "add","path": "/objectType","value": "container"}],
 
-  [{"op": "test","path": "/slotCount"},{"op": "test","path": "/category"},{"op": "replace","path": "/category","value": "storage"}],
-  [{"op": "test","path": "/slotCount"},{"op": "test","path": "/category","inverse":true},{"op": "add","path": "/category","value": "storage"}],
-
   [{"op": "test","path": "/slotCount"},{"op": "test","path": "/tooltipKind"},{"op": "replace","path": "/tooltipKind","value": "container"}],
   [{"op": "test","path": "/slotCount"},{"op": "test","path": "/tooltipKind","inverse":true},{"op": "add","path": "/tooltipKind","value": "container"}],
 
