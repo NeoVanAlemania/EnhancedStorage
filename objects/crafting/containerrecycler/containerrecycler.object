@@ -3,7 +3,7 @@
   "colonyTags" : ["crafting"],
   "rarity" : "Legendary",
   "printable" : false,
-  "description" : "Extracts Storage Matter Fragments from containers.",
+  "description" : "Extracts Storage Matter from containers.",
   "shortdescription" : "^orange;Storage Matter Extractor^white;",
   "race" : "generic",
   "category" : "Extracts Storage Matter",

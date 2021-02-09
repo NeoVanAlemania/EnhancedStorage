@@ -5,7 +5,7 @@
   "category" : "craftingMaterial",
   "inventoryIcon" : "enhancedstoragematerialfragment.png",
   "description" : "A fragment of Storage Matter.",
-  "shortdescription" : "Storage Matter Fragment",
+  "shortdescription" : "Storage Fragment",
   "radioMessagesOnPickup" : [ "pickupenhancedstoragematerialfragment" ],
   "itemTags" : [ "reagent" ]
 }

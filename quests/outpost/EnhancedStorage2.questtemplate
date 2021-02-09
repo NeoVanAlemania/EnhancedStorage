@@ -6,7 +6,7 @@
   "completionText" : "Well done. Feel free to use both stations when needed but keep an eye on your materials! Also, please take a look at the goods I'm selling if you have time.",
   "moneyRange" : [50, 50],
   "rewards" : [
-    [ [ "manipulatormodule", 1 ], [ "enhancedstoragematerial", 100 ] ]
+    [ [ "manipulatormodule", 1 ], [ "enhancedstoragematerial", 50 ] ]
   ],
   "canBeAbandoned" : false,
 
