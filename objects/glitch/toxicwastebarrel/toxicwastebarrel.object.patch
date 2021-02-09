@@ -33,8 +33,7 @@
   [{"op": "test","path": "/slotCount"},{"op": "test","path": "/explosionOffset"},{"op": "remove","path": "/explosionOffset"}],
 
   [{"op": "test","path": "/slotCount"},{"op": "test","path": "/scripts"},{"op": "replace","path": "/scripts","value": [ "/scripts/enhancedstorage.lua" ]}],
-  [{"op": "test","path": "/slotCount"},{"op": "test","path": "/scripts", "inverse":true},{"op": "add","path": "/scripts","value": []}],
-  [{"op": "test","path": "/slotCount"},{"op": "add","path": "/scripts/-","value": "/scripts/enhancedstorage.lua"}],
+  [{"op": "test","path": "/slotCount"},{"op": "test","path": "/scripts", "inverse":true},{"op": "add","path": "/scripts","value": [ "/scripts/enhancedstorage.lua" ]}],
 
   [{"op": "test","path": "/slotCount"},{"op": "test","path": "/smashOnBreak"},{"op": "replace","path": "/smashOnBreak","value": true}]
 ]

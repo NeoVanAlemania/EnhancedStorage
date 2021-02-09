@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "enhancedstoragematerial", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "enhancedstoragematerialfragment",
+    "count" : 10
+  },
+  "groups" : [ "plain", "all", "other" ]
+}

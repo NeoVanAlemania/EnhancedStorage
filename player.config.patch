@@ -1,5 +1,6 @@
 ﻿[
-	[ { "op": "add", "path": "/deploymentConfig/scripts/-", "value": "/scripts/es_player_init.lua" } ],
-	[{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "capturepodchest" }}],
-	[{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "enhancedstoragematerial" }}]
+  [{ "op": "add", "path": "/deploymentConfig/scripts/-", "value": "/scripts/es_player_init.lua" }],
+  [{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "capturepodchest" }}],
+  [{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "enhancedstoragematerial" }}],
+  [{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "enhancedstoragematerialfragment" }}]
 ]
