@@ -1,6 +1,10 @@
+local containerrecycleroldinit=init
+local containerrecycleroldupdate=update
+
 require("/scripts/shared/util.lua")
 
 function init()
+	if containerrecycleroldinit then containerrecycleroldinit() end
 	itemConfig = {}
 	currentTime = 0
 	timerActive = false
@@ -10,6 +14,7 @@ end
 
 
 function update(dt)
+	if containerrecycleroldupdate then containerrecycleroldupdate(dt) end
 	if not timerActive and next(world.containerItems(entity.id())) ~= nil then
 
 		-- continue if output slot is empty or has enhancedstoragematerial
@@ -24,7 +29,7 @@ function update(dt)
 					if checkItem(itemAtSlot) then
 						timerActive = true
 						startTime = world.time()
-						animator.setAnimationState("recyclerState", "active")
+						animator.setAnimationState("stage", "active")
 						consumeItemAt = i
 						break
 					end
@@ -93,5 +98,5 @@ end
 function stopTimer()
 	currentTime = 0
 	timerActive = false
-	animator.setAnimationState("recyclerState", "idle")
+	animator.setAnimationState("stage", "idle")
 end

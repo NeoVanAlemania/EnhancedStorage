@@ -1,7 +1,7 @@
 {
   "animatedParts" : {
     "stateTypes" : {
-      "recyclerState" : {
+      "stage" : {
         "default" : "idle",
         "states" : {
           "idle" : {
@@ -30,7 +30,7 @@
           "centered" : false
         },
         "partStates" : {
-          "recyclerState" : {
+          "stage" : {
             "idle" : {
               "properties" : {
                 "image" : "<partImage>:off"
@@ -52,7 +52,7 @@
           "fullbright" : true
         },
         "partStates" : {
-          "recyclerState" : {
+          "stage" : {
             "idle" : {
               "properties" : {
                 "image" : "<partImage>:off"

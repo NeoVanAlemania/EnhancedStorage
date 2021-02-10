@@ -2,53 +2,134 @@
   "objectName" : "containerrecycler",
   "colonyTags" : ["crafting"],
   "rarity" : "Legendary",
-  "printable" : false,
-  "description" : "Extracts Storage Matter from containers.",
-  "shortdescription" : "^orange;Storage Matter Extractor^white;",
   "race" : "generic",
   "category" : "Extracts Storage Matter",
+  "breakDropOptions" : [],
   "price" : 1000,
-  "health" : 2,
+  "printable" : false,
 
-  "objectType" : "container",
-  "slotCount" : 10,
-  "uiConfig" : "/interface/scripted/containerrecycler/containerrecycler.config",
-  "scripts" : [ "/objects/crafting/containerrecycler/containerrecycler.lua" ],
+  "scripts" : [ "/objects/crafting/upgradeablecraftingobjects/upgradeablecraftingobject.lua", "/objects/crafting/containerrecycler/containerrecycler.lua" ],
   "scriptDelta" : 10,
   "frameCooldown" : 5,
   "autoCloseCooldown" : 3600,
   "craftTime" : 2,
 
-  "apexDescription" : "A Storage Matter Extractor... Gives Storage Matter to create something new.",
-  "avianDescription" : "A Storage Matter Extractor for getting Storage Matter back.",
-  "floranDescription" : "Extractsss Ssstorage Matter from old containerss for Floran.",
-  "glitchDescription" : "Statement. I should not go inside this Storage Matter Extractor.",
-  "humanDescription" : "Extracts Storage matter from old containers.",
-  "hylotlDescription" : "Storage Matter Extraction, very handy for creating new containers.",
-  "novakidDescription" : "Storage Matter Extraction is pretty fancy.",
-
-  "flickerPeriod" : 0.3,
-  "flickerMinIntensity" : 0.95,
-  "flickerMaxIntensity" : 1,
-  "flickerPeriodVariance" : 0.1,
-  "flickerIntensityVariance" : 0.0,
-  "lightColor" : [23, 33, 38],
-
+  "animation" : "containerrecycler.animation",
+  "animationParts" : {"containerrecycler" : "containerrecycler.png", "containerrecyclerlit" : "containerrecyclerlit.png"},
+  "animationPosition" : [-28, 0],
+  
   "inventoryIcon" : "containerrecyclericon.png",
+  "placementImage" : "containerrecycler.png:off",
+  "placementImagePosition" : [-28, 0],    
+
+  "description" : "Extracts Storage Matter from containers.",
+  "shortdescription" : "^orange;Storage Matter Extractor^white;",
+
+  "apexDescription" : "A table with a bunch of tools for a craftsman.",
+  "avianDescription" : "A chance to display one's ability to create.",
+  "floranDescription" : "Floran ussse table. Make nice thingss.",
+  "glitchDescription" : "Inspired. Crafting module activated.",
+  "humanDescription" : "I can use materials I've found here to create new things.",
+  "hylotlDescription" : "A chance to create.",
+  "novakidDescription" : "I can use materials I've found here to create new things.",
+
+  "startingUpgradeStage" : 1,
+  "maxUpgradeStage" : 2,
+
+  "upgradeStages" : [
+    {
+      "animationState" : "idle",
+      
+      "itemSpawnParameters" : {
+        "inventoryIcon" : "containerrecyclericon.png",
+        "placementImage" : "containerrecycler.png:off",
+        "placementImagePosition" : [-28, 0],   
+
+        "description" : "Extracts Storage Matter from containers.",
+        "shortdescription" : "^orange;Storage Matter Extractor^white;",
+
+        "apexDescription" : "A Storage Matter Extractor... Gives Storage Matter to create something new.",
+        "avianDescription" : "A Storage Matter Extractor for getting Storage Matter back.",
+        "floranDescription" : "Extractsss Ssstorage Matter from old containerss for Floran.",
+        "glitchDescription" : "Statement. I should not go inside this Storage Matter Extractor.",
+        "humanDescription" : "Extracts Storage matter from old containers.",
+        "hylotlDescription" : "Storage Matter Extraction, very handy for creating new containers.",
+        "novakidDescription" : "Storage Matter Extraction is pretty fancy."
+      },
+
+      "interactData" : {
+        "config" : "/interface/scripted/containerrecycler/containerrecycler.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : {
+            "title" : "^orange;Storage Matter Extractor^white;",
+            "subtitle" : "Extracts Storage Matter",
+            "icon" : {
+              "file" : "/interface/crafting/inventorstable.png"
+            }
+          }
+        },
+
+        "upgradeMaterials" : [
+          { "item" : "tungstenbar", "count" : 6 },
+          { "item" : "glass", "count" : 10 },
+          { "item" : "silverbar", "count" : 5 }
+        ]
+      },
+
+      "learnBlueprintsOnPickup" : []
+    },
+
+    {
+      "animationState" : "idle",
+      
+      "itemSpawnParameters" : {
+        "inventoryIcon" : "containerrecycler2icon.png",
+        "placementImage" : "containerrecycler2.png:off",
+        "placementImagePosition" : [-28, 0],    
+
+        "description" : "Extracts Storage Matter from containers.",
+        "shortdescription" : "^orange;Storage Matter Extractor^white;",
+
+        "apexDescription" : "A table with a bunch of tools for a craftsman.",
+        "avianDescription" : "A chance to display one's ability to create.",
+        "floranDescription" : "Floran ussse table. Make nice thingss.",
+        "glitchDescription" : "Inspired. Crafting module activated.",
+        "humanDescription" : "I can use materials I've found here to create new things.",
+        "hylotlDescription" : "A chance to create.",
+        "novakidDescription" : "I can use materials I've found here to create new things."
+      },
+
+      "interactData" : {
+        "config" : "/interface/scripted/containerrecycler/containerrecycler.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : {
+            "title" : "^orange;Storage Matter Extractor^white;",
+            "subtitle" : "Extracts Storage Matter",
+            "icon" : {
+              "file" : "/interface/crafting/inventorstable.png"
+            }
+          }
+        },
+
+        "upgradeMaterials" : [
+          { "item" : "tungstenbar", "count" : 6 },
+          { "item" : "glass", "count" : 10 },
+          { "item" : "silverbar", "count" : 5 }
+        ]
+      },
+
+      "learnBlueprintsOnPickup" : []
+    }
+  ],
+
   "orientations" : [
     {
-      "direction" : "right",
-
       "image" : "containerrecycler.png:off",
-      "imagePosition" : [-28, 0],
-
+      "imagePosition" : [-28, 0],   
+      "direction" : "right",
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform"
     }
-  ],
-
-  "animation" : "containerrecycler.animation",
-  "animationParts" : {"containerrecycler" : "containerrecycler.png", "containerrecyclerlit" : "containerrecyclerlit.png"},
-  "animationPosition" : [-28, 0]
+  ]
 }
