@@ -8,6 +8,9 @@
   "price" : 1000,
   "printable" : false,
 
+  "objectType" : "container",
+  "slotCount" : 10,
+  "uiConfig" : "/interface/scripted/containerrecycler/containerrecycler.config",
   "scripts" : [ "/objects/crafting/upgradeablecraftingobjects/upgradeablecraftingobject.lua", "/objects/crafting/containerrecycler/containerrecycler.lua" ],
   "scriptDelta" : 10,
   "frameCooldown" : 5,
