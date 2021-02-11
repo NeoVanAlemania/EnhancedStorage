@@ -14,6 +14,11 @@ function update(dt)
 end
 
 
+function btnUpgradeCallback()
+	world.sendEntityMessage(pane.containerEntityId(), "requestUpgrade")
+end
+
+
 function denyInvalidItems()
 	-- check for items in input slots
 	local containerSize = world.getObjectParameter(pane.containerEntityId(), "slotCount")

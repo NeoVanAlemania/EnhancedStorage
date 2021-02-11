@@ -10,7 +10,10 @@
 
   "objectType" : "container",
   "slotCount" : 10,
+
+  // should removed
   "uiConfig" : "/interface/scripted/containerrecycler/containerrecycler.config",
+
   "scripts" : [ "/objects/crafting/upgradeablecraftingobjects/upgradeablecraftingobject.lua", "/objects/crafting/containerrecycler/containerrecycler.lua" ],
   "scriptDelta" : 10,
   "frameCooldown" : 5,
@@ -23,7 +26,7 @@
   
   "inventoryIcon" : "containerrecyclericon.png",
   "placementImage" : "containerrecycler.png:off",
-  "placementImagePosition" : [-28, 0],    
+  "placementImagePosition" : [-28, 0],
 
   "description" : "Extracts Storage Matter from containers.",
   "shortdescription" : "^orange;Storage Matter Extractor^white;",
@@ -46,7 +49,7 @@
       "itemSpawnParameters" : {
         "inventoryIcon" : "containerrecyclericon.png",
         "placementImage" : "containerrecycler.png:off",
-        "placementImagePosition" : [-28, 0],   
+        "placementImagePosition" : [-28, 0],
 
         "description" : "Extracts Storage Matter from containers.",
         "shortdescription" : "^orange;Storage Matter Extractor^white;",
@@ -88,7 +91,7 @@
       "itemSpawnParameters" : {
         "inventoryIcon" : "containerrecycler2icon.png",
         "placementImage" : "containerrecycler2.png:off",
-        "placementImagePosition" : [-28, 0],    
+        "placementImagePosition" : [-28, 0],
 
         "description" : "Extracts Storage Matter from containers.",
         "shortdescription" : "^orange;Storage Matter Extractor^white;",
@@ -106,7 +109,7 @@
         "config" : "/interface/scripted/containerrecycler/containerrecycler.config",
         "paneLayoutOverride" : {
           "windowtitle" : {
-            "title" : "^orange;Storage Matter Extractor^white;",
+            "title" : "^orange;Storage Matter Extractor2^white;",
             "subtitle" : "Extracts Storage Matter",
             "icon" : {
               "file" : "/interface/crafting/inventorstable.png"
