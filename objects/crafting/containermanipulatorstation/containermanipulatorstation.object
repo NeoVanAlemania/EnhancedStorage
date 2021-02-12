@@ -2,20 +2,32 @@
   "objectName" : "containermanipulatorstation",
   "colonyTags" : ["crafting"],
   "rarity" : "Legendary",
-  "printable" : false,
-  "description" : "Manipulates the Storage Matter within a container.",
-  "shortdescription" : "^orange;Storage Manipulator^white;",
   "race" : "generic",
   "category" : "Modifies Storage Matter",
-  "price" : 5000,
-  "health" : 10,
-
   "objectType" : "container",
+
+  //this is handled by the lua
+  "breakDropOptions" : [],
+
+  "price" : 5000,
+  "printable" : false,
+
   "slotCount" : 2,
-  "uiConfig" : "/interface/scripted/containermanipulatorstation/containermanipulatorstation.config",
   "frameCooldown" : 5,
   "autoCloseCooldown" : 3600,
   "craftTime" : 3,
+
+  "scripts" : [ "/scripts/objectaddons.lua", "/objects/crafting/upgradeablecraftingobjects/upgradeablecraftingobject2.lua" ],
+
+  "animation" : "containermanipulatorstation.animation",
+  "animationPosition" : [0, 32],
+
+  "inventoryIcon" : "containermanipulatorstationicon.png",
+  "placementImage" : "containermanipulatorstation.png:default.default",
+  "placementImagePosition" : [-52, 0],
+
+  "description" : "Manipulates the Storage Matter within a container.",
+  "shortdescription" : "^orange;Storage Manipulator^white;",
 
   "apexDescription" : "A machine like this is used to modify the container space.",
   "avianDescription" : "How useful, I can modify the container space with this.",
@@ -24,17 +36,83 @@
   "humanDescription" : "I can use this to modify the capacity of my containers.",
   "hylotlDescription" : "This machine is useful for modify container space.",
   "novakidDescription" : "I can use this thing for modifying my container's capacity.",
-  
-  "lightColor" : [38, 114, 128],
-  "lightPosition" : [0, 1],
 
-  "flickerPeriod" : 1.2,
-  "flickerMinIntensity" : 0.95,
-  "flickerMaxIntensity" : 1.00,
-  "flickerPeriodVariance" : 0.0,
-  "flickerIntensityVariance" : 0.0,
+  "learnBlueprintsOnPickup" : [],
 
-  "inventoryIcon" : "containermanipulatorstationicon.png",
+
+  "startingUpgradeStage" : 1,
+  "maxUpgradeStage" : 1,
+  "upgradeStages" : [
+    {
+      "animationState" : "containermanipulatorstation",
+
+      "itemSpawnParameters" : {
+        "price" : 1500,
+        "rarity" : "Legendary",
+        "inventoryIcon" : "containermanipulatorstationicon.png",
+        "placementImage" : "containermanipulatorstation.png:default.default",
+        "placementImagePosition" : [-52, 0],
+
+        "description" : "Manipulates the Storage Matter within a container.",
+        "shortdescription" : "^orange;Storage Manipulator^white;",
+
+        "apexDescription" : "A machine like this is used to modify the container space.",
+        "avianDescription" : "How useful, I can modify the container space with this.",
+        "floranDescription" : "Floran can modify containersss with thisss.",
+        "glitchDescription" : "Impressed. This device can modify containers.",
+        "humanDescription" : "I can use this to modify the capacity of my containers.",
+        "hylotlDescription" : "This machine is useful for modify container space.",
+        "novakidDescription" : "I can use this thing for modifying my container's capacity."
+      },
+
+      "interactData" : {
+        "config" : "/interface/scripted/containermanipulatorstation/containermanipulatorstation.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : {
+            "title" : "^orange;Storage Manipulator^white;",
+            "subtitle" : "Manipulates the Storage Matter within a container.",
+            "icon" : {
+              "file" : "/interface/crafting/craftinganvil.png"
+            }
+          }
+        },
+        "filter" : [ "containermanipulatorstation", "containermanipulatorstation2", "containermanipulatorstation" ],
+        "initialRecipeUnlocks" : [ "acceleratoraddon", "separatoraddon", "manipulatoraddon" ],
+        "craftingSound" : "/sfx/interface/crafting_tech1.ogg"
+      },
+
+      "learnBlueprintsOnPickup" : [ "acceleratoraddon", "manipulatoraddon", "separatoraddon"],
+
+      "materialSpaces" : [
+        [[-1, 5], "metamaterial:anviladdonbase"],
+        [[0, 5], "metamaterial:anviladdonbase"]
+      ],
+
+      "addonConfig" : {
+        "usesAddons" : [
+          {
+            "name" : "containermanipulatorstationAddon",
+            "position" : [0, 6],
+            "addonData" : {
+              "animationState" : "accelerator",
+              "interactData" : {
+                "paneLayoutOverride" : {
+                  "windowtitle" : {
+                    "title" : "^orange;Storage Manipulator MKII^white;",
+                    "icon" : {
+                      "file" : "/interface/crafting/acceleratortable.png"
+                    }
+                  }
+                },
+                "filter" : [ "containermanipulatorstation", "containermanipulatorstation2", "containermanipulatorstation", "craftingaccelerator" ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+
   "orientations" : [
     {
       "imageLayers" : [ { "image" : "containermanipulatorstation.png:<color>.<frame>" }, { "image" : "containermanipulatorstationlit.png:<color>.<frame>", "fullbright" : true } ],
