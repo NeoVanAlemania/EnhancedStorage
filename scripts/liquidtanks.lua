@@ -31,7 +31,7 @@ end
 function setAnimationState()
 	liquidContainerActive = true
 
-	local currentLiquidCount = 0
+	-- local currentLiquidCount = 0
 	local imageType = "liquidwater"
 	local imageFrame = 1
 
@@ -68,7 +68,11 @@ function setAnimationState()
 	if currentLiquid ~= "" then
 		local currentLiquidCount = world.containerAvailable(entity.id(), currentLiquid)
 		local maxStack = getItemConfig(currentLiquid).maxStack
-		local maxCount = world.getObjectParameter(entity.id(), "slotCount") * maxStack
+		local maxCount = world.getObjectParameter(entity.id(), "slotCount") * math.min(1000, maxStack)
+
+		if currentLiquidCount > maxCount then
+			currentLiquidCount = maxCount
+		end
 
 		if not animationFrames then animationFrames = world.getObjectParameter(entity.id(), "animationFrames") end
 		imageFrame = math.ceil((currentLiquidCount / maxCount) * animationFrames)
